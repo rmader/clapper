@@ -43,7 +43,7 @@ GST_DEBUG_CATEGORY (gst_debug_clapper_gl_sink);
     "width = " GST_VIDEO_SIZE_RANGE ", "                                \
     "height = " GST_VIDEO_SIZE_RANGE ", "                               \
     "framerate = " GST_VIDEO_FPS_RANGE ", "                             \
-    "texture-target = (string) { 2D, external-oes } "                   \
+    "texture-target = (string) { 2D } "                                 \
     " ; "                                                               \
     "video/x-raw(" GST_CAPS_FEATURE_MEMORY_GL_MEMORY ","                \
     GST_CAPS_FEATURE_META_GST_VIDEO_OVERLAY_COMPOSITION "), "           \
@@ -51,7 +51,7 @@ GST_DEBUG_CATEGORY (gst_debug_clapper_gl_sink);
     "width = " GST_VIDEO_SIZE_RANGE ", "                                \
     "height = " GST_VIDEO_SIZE_RANGE ", "                               \
     "framerate = " GST_VIDEO_FPS_RANGE ", "                             \
-    "texture-target = (string) { 2D, external-oes } "
+    "texture-target = (string) { 2D } "
 
 static GstStaticPadTemplate gst_clapper_gl_sink_template =
     GST_STATIC_PAD_TEMPLATE ("sink",
